@@ -31,19 +31,15 @@ body {
 }
 
 /* -------------------------------------------------------------NAVIGATION */
-.header .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
-}
 
-.header .main-menu .navbar {
-    padding: 1rem 20rem;
-}
+
+
 
 .header .main-menu .nav-item .nav-link{
     font-weight: 600;
     padding: 1.7rem;
     color: var(--text-color);
-}
+} 
 
 .header .main-menu .navbar-nav .active{
     background: var(--gradient);
