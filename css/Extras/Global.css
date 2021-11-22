@@ -59,3 +59,7 @@ html, body {
     background: var(--primary-color2);
     color: var(--primary-color3);
 }
+
+.btn:focus{
+    box-shadow: none;
+}
