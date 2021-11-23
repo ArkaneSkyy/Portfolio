@@ -28,7 +28,6 @@ html, body {
 /* -------------------------------------------------------------Buttons */
 .button{
     padding: .2rem 1.5rem;
-    width: 145px;
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
@@ -38,7 +37,6 @@ html, body {
     background: var(--primary-color2);
     color: var(--primary-color);
     transition: all .5s ease;
-    border-radius: 10px;
 }
 
 .button.primary-button:hover{
@@ -52,7 +50,7 @@ html, body {
     border-color: var(--primary-color2);
     color: var(--text-color);
     transition: all .5s ease;
-    border-radius: 10px;
+    min-width: 143.45px;
 }
 
 .button.secondary-button:hover{

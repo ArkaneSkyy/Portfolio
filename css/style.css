@@ -80,7 +80,6 @@
 
 .snowboard {
     border-radius: 15px;
-    width: 450px;
 }
 
 .site-main .about-area {
@@ -216,3 +215,19 @@ svg {
     background-color: var(--primary-color2);
 }
 
+/* ------------------------------------------------------------- Skills */
+.portfolio-area{
+    margin-top: 200px;
+}
+
+.card {
+    background-color: var(--primary-color3);
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
