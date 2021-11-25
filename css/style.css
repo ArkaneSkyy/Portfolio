@@ -3,6 +3,12 @@
 @import url(./Extras/Global.css);
 
 /* -------------------------------------------------------------NAVIGATION */
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+
 .header .main-menu .nav-item .nav-link{
     font-weight: 600;
     padding: 1.7rem;
@@ -44,6 +50,7 @@
 /* ------------------------------------------------------------- HOME */
 .site-main .site-banner {
     background: var(--primary-color3);
+    margin-top: 100px;
 }
 
 
