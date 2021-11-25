@@ -29,7 +29,7 @@ html, body {
 .button{
     padding: .2rem 1.5rem;
     position: relative;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
     border-radius: 4px;
 }
 
@@ -61,3 +61,23 @@ html, body {
 .btn:focus{
     box-shadow: none;
 }
+
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color2);
+  }
