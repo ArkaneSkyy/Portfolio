@@ -4,9 +4,12 @@
 
 /* -------------------------------------------------------------NAVIGATION */
 
-.navbar {
+.navbar-expand-lg {
     background-color: var(--primary-color);
+    opacity: 95%;
 }
+
+
 
 
 .header .main-menu .nav-item .nav-link{
