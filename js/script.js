@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     const projectMenu = document.querySelector('#projects-page');
     const contactMenu = document.querySelector('#contact-page');
     const scrollPos = window.scrollY;
-    console.log(scrollPos);
+   // console.log(scrollPos);
     if (window.innerWidth > 1200 && scrollPos < 600) {
         homeMenu.classList.add('highlight');
         aboutMenu.classList.remove('highlight');
