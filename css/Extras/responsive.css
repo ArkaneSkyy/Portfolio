@@ -16,6 +16,18 @@
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    .span {
+        font-size: 20px;
+    }
+    .footer-icons .fa,
+    .fab {
+    padding: 1px;
+    font-size: 30px;
+    }
+    .contact-area,
+    .footer-icons {
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 1000px) {

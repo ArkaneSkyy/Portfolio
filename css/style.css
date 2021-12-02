@@ -220,7 +220,6 @@ svg {
 .progress-bar {
     background-color: var(--primary-color2);
 }
-
 /* ------------------------------------------------------------- Skills */
 .portfolio-area{
     margin-top: 200px;
@@ -237,3 +236,34 @@ svg {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+/* ------------------------------------------------------------- Footer */
+.footer-icons h1 {
+    color: var(--primary-color2);
+}
+.contact-area{
+    margin-top: 150px;
+    background-color: var(--primary-color3);
+}
+.footer-icons .fa,
+.fab {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.footer-icons .fa:hover,
+.fab:hover{
+    color: var(--primary-color2);
+    transition: all .2s;
+}
+
+.footer-icons ul {
+    list-style-type: none;
+    display:flex;
+}
+ul span {
+    font-size: 40px;
+}
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    }
