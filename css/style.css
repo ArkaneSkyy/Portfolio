@@ -21,12 +21,13 @@
     background-clip: text;
 }
 
-.header .main-menu .navbar-nav a:hover{
+.highlight {
     background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 
 .sliding-middle-out {
 	display: inline-block;
