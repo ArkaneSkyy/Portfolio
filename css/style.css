@@ -231,6 +231,13 @@ svg {
     border-radius: 15px;
     margin-left: 15px;
     margin-right: 15px;
+    transition: .2s;
+}
+
+.card:hover {
+    box-shadow: 0 0px 15px var(--primary-color2);
+    transition: all .3s;
+    transform: scale(1.05);
 }
 
 .card img {
