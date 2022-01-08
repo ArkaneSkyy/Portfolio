@@ -122,11 +122,6 @@ html, body {
     background: var(--primary-color2);
 }
 
-.card:hover {
-    box-shadow: 0 0px 15px var(--primary-color2);
-    transition: all .3s;
-}
-
 .button:hover {
     box-shadow: 0 0px 10px var(--primary-color2);
 }
