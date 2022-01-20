@@ -221,29 +221,81 @@ svg {
 .progress-bar {
     background-color: var(--primary-color2);
 }
-/* ------------------------------------------------------------- Skills */
+/* ------------------------------------------------------------- Projects */
 .portfolio-area{
     margin-top: 200px;
 }
 
-.card {
-    background-color: var(--primary-color3);
-    border-radius: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    transition: .2s;
+.projects {
+    display: flex;
+    justify-content: center;
 }
 
-.card:hover {
-    box-shadow: 0 0px 15px var(--primary-color2);
-    transition: all .3s;
-    transform: scale(1.05);
+.project-card{
+    width: 330px;
 }
 
-.card img {
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+.project-card h4, a {
+    color: var(--primary-color2);
+    text-decoration: none;
 }
+
+.stream {
+    position: relative;
+    display: inline-block;
+    background-color: var(--primary-color2);
+  }
+    .stream:before,
+    .stream:after {
+      content: '';
+      display: block;
+      background-color: var(--primary-color2);
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      transition: all .15s ease;
+      
+    }
+  
+    .stream:before {
+      top: 0;
+      left: 0;
+      transform-origin: top left;
+      transform: rotate(-45deg) scale(0);
+    
+    }
+  
+    .stream:after {
+      right: 0;
+      bottom: 0;
+      transform-origin: bottom right;
+      transform: rotate(45deg) scale(0);
+     
+    }
+  
+    .stream__thumbnail {
+      display: block;
+      transform: translate(0, 0);
+      transition: all .15s ease;
+      position: relative;
+      z-index: 10;
+      width: 300px;
+    }
+  
+  .stream:hover .stream__thumbnail {
+    transform: translate(6px, -6px);
+    
+  }
+  
+  .stream:hover:before {
+    transform: rotate(-45deg) scale(1);
+  }
+  
+  .stream:hover:after {
+    transform: rotate(45deg) scale(1);
+  }
+
+
 /* ------------------------------------------------------------- Footer */
 .footer-icons h1 {
     color: var(--primary-color2);
@@ -274,4 +326,4 @@ ul span {
 .list-group-item {
     background-color: transparent;
     border: none;
-    }
+}
