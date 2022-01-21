@@ -75,7 +75,7 @@ html, body {
     background: var(--primary-color2);
     color: var(--primary-color);
     transition: all .5s ease;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .button.primary-button:hover{
@@ -90,7 +90,7 @@ html, body {
     color: var(--text-color);
     transition: all .5s ease;
     min-width: 143.45px;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .button.secondary-button:hover{
