@@ -6,12 +6,22 @@
         padding: 4% !important;
         margin: 2% !important;
     }
+    .site-main .site-banner {
+        margin-top: 50px;
+    }
+    .site-main .site-banner .site-title h3 {
+        padding-top: 20px;
+    }
+    .site-main .site-banner .banner-image > img {
+        margin-top: 20px;
+        width: 320px;
+    }
     .site-title{
         text-align: center;
     }
     .site-main .site-banner .site-title h1{
         font-size: 60px;
-    }
+    } 
 
     .card {
         margin-bottom: 10px;
@@ -38,6 +48,9 @@
     }
     .site-main .site-banner .site-title h1{
         font-size: 41px;
+    }
+    .portfolio-image {
+        width: 2px;
     }
 }
 
