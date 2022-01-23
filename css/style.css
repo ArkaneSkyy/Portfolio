@@ -282,16 +282,16 @@ svg {
     }
   
   .stream:hover .stream__thumbnail {
-    transform: translate(6px, -6px);
+    transform: translate(7px, -7px);
     
   }
   
   .stream:hover:before {
-    transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1.2);
   }
   
   .stream:hover:after {
-    transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1.2);
   }
 
 
