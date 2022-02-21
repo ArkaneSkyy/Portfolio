@@ -159,7 +159,7 @@ svg {
     stroke: #f3f3f3;
 }
 .box .percent .svg-2 circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke-dashoffset: calc(440 - (440 * 95) / 100);
     stroke: var(--primary-color2);
 }
 /* svg3 creativity*/
